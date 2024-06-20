@@ -1,0 +1,12 @@
+﻿LOG 2024/05/04
+Save Path: C:\Users\875497\Documents\tempo_downloader\Logs
+Task Start: 2024/05/04 15:57:33
+Task CommandLine: C:\Users\875497\Documents\tempo_downloader\m4.exe https://production-trusted.s3.amazonaws.com/classes/198a7bf2-bb1f-4d5a-a572-8bab1afa944d/198a7bf2-bb1f-4d5a-a572-8bab1afa944d.m3u8 --auto-select --save-name temp.mp4
+
+15:57:33.457 INFO : N_m3u8DL-RE (Beta version) 20230628
+15:57:33.468 EXTRA: ffmpeg => C:\ProgramData\chocolatey\bin\ffmpeg.exe
+15:57:33.468 INFO : Loading URL: https://production-trusted.s3.amazonaws.com/classes/198a7bf2-bb1f-4d5a-a572-8bab1afa944d/198a7bf2-bb1f-4d5a-a572-8bab1afa944d.m3u8
+15:57:33.927 INFO : Content Matched: HTTP Live Streaming
+15:57:33.928 INFO : Parsing streams...
+15:57:33.930 WARN : Master List detected, try parse all streams
+15:57:33.933 ERROR: Cannot create 'C:\Users\875497\Documents\tempo_downloader\temp.mp4' because a file or directory with the same name already exists.

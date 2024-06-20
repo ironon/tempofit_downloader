@@ -1,0 +1,18 @@
+﻿LOG 2024/05/04
+Save Path: C:\Users\875497\Documents\tempo_downloader\Logs
+Task Start: 2024/05/04 15:55:54
+Task CommandLine: C:\Users\875497\Documents\tempo_downloader\m4.exe https://production-trusted.s3.amazonaws.com/classes/198a7bf2-bb1f-4d5a-a572-8bab1afa944d/198a7bf2-bb1f-4d5a-a572-8bab1afa944d.m3u8
+
+15:55:54.623 INFO : N_m3u8DL-RE (Beta version) 20230628
+15:55:54.656 EXTRA: ffmpeg => C:\ProgramData\chocolatey\bin\ffmpeg.exe
+15:55:54.656 INFO : Loading URL: https://production-trusted.s3.amazonaws.com/classes/198a7bf2-bb1f-4d5a-a572-8bab1afa944d/198a7bf2-bb1f-4d5a-a572-8bab1afa944d.m3u8
+15:55:55.027 INFO : Content Matched: HTTP Live Streaming
+15:55:55.029 INFO : Parsing streams...
+15:55:55.031 WARN : Master List detected, try parse all streams
+15:55:55.036 WARN : Writing meta json
+15:55:55.041 INFO : Extracted, there are 4 streams, with 3 basic streams, 1 audio streams, 0 subtitle streams
+15:55:55.043 INFO : Vid 2160x3840 | 2200 Kbps | 29.97 | avc1.4d4033 | SDR
+15:55:55.045 INFO : Vid 2160x3840 | 1206 Kbps | 29.97 | avc1.4d4033 | SDR
+15:55:55.047 INFO : Vid 2160x3840 | 710 Kbps | 29.97 | avc1.4d4033 | SDR
+15:55:55.050 INFO : Aud program_audio_0 | Alternate Audio | eng
+15:56:27.538 WARN : Force Exit...

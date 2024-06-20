@@ -1,0 +1,35 @@
+﻿LOG 2024/05/04
+Save Path: C:\Users\875497\Documents\tempo_downloader\m4\Logs
+Task Start: 2024/05/04 17:55:51
+Task CommandLine: m4 https://production-trusted.s3.amazonaws.com/classes/3a73c6b6-f1ef-436e-a292-0a67ea113683/3a73c6b6-f1ef-436e-a292-0a67ea113683.m3u8 --auto-select --save-name 35mUpperBodyBuildBicepBackStrengthmp4
+
+17:55:51.931 INFO : N_m3u8DL-RE (Beta version) 20230628
+17:55:51.944 EXTRA: ffmpeg => C:\ProgramData\chocolatey\bin\ffmpeg.exe
+17:55:51.944 INFO : Loading URL: https://production-trusted.s3.amazonaws.com/classes/3a73c6b6-f1ef-436e-a292-0a67ea113683/3a73c6b6-f1ef-436e-a292-0a67ea113683.m3u8
+17:55:52.279 INFO : Content Matched: HTTP Live Streaming
+17:55:52.280 INFO : Parsing streams...
+17:55:52.281 WARN : Master List detected, try parse all streams
+17:55:52.290 WARN : Writing meta json
+17:55:52.292 INFO : Extracted, there are 4 streams, with 3 basic streams, 1 audio streams, 0 subtitle streams
+17:55:52.293 INFO : Vid 1080x1920 | 2216 Kbps | 29.97 | avc1.4d4028 | SDR
+17:55:52.294 INFO : Vid 1080x1920 | 1215 Kbps | 29.97 | avc1.4d4028 | SDR
+17:55:52.295 INFO : Vid 1080x1920 | 714 Kbps | 29.97 | avc1.4d4028 | SDR
+17:55:52.295 INFO : Aud program_audio_0 | Alternate Audio | eng
+17:55:52.296 INFO : Parsing streams...
+17:55:52.499 INFO : Selected streams:
+17:55:52.500 INFO : Vid 1080x1920 | 2216 Kbps | 29.97 | avc1.4d4028 | SDR | 168 Segments | ~33m27s
+17:55:52.502 INFO : Aud program_audio_0 | Alternate Audio | eng | 168 Segments | ~33m27s
+17:55:52.502 WARN : Writing meta json
+17:55:52.505 INFO : Save Name: 35mUpperBodyBuildBicepBackStrengthmp4
+17:55:52.508 INFO : Start downloading...Vid 1080x1920 | 2216 Kbps | 29.97 | avc1.4d4028 | SDR
+17:55:52.509 WARN : fMP4 is detected, binary merging is automatically enabled
+17:55:52.721 WARN : Reading media info...
+17:55:52.864 INFO : [0x1]: Video, h264 (avc1), 1080x1920
+17:56:19.216 WARN : 35mUpperBodyBuildBicepBackStrengthmp4.mp4 => 35mUpperBodyBuildBicepBackStrengthmp4.copy.mp4
+17:56:19.218 INFO : Binary merging...
+17:56:19.706 INFO : Start downloading...Aud program_audio_0 | Alternate Audio | eng
+17:56:19.890 WARN : Reading media info...
+17:56:19.987 INFO : [0x1]: Audio, aac (mp4a)
+17:56:23.474 WARN : 35mUpperBodyBuildBicepBackStrengthmp4.eng.m4a => 35mUpperBodyBuildBicepBackStrengthmp4.eng.copy.m4a
+17:56:23.476 INFO : Binary merging...
+17:56:23.554 INFO : Done

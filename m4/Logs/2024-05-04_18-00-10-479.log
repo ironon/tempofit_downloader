@@ -1,0 +1,33 @@
+﻿LOG 2024/05/04
+Save Path: C:\Users\875497\Documents\tempo_downloader\m4\Logs
+Task Start: 2024/05/04 18:00:10
+Task CommandLine: m4 https://production-trusted.s3.amazonaws.com/classes/198a7bf2-bb1f-4d5a-a572-8bab1afa944d/198a7bf2-bb1f-4d5a-a572-8bab1afa944d.m3u8 --auto-select --save-name 10mCoreStrengthStabilityPowermp4
+
+18:00:10.482 INFO : N_m3u8DL-RE (Beta version) 20230628
+18:00:10.493 EXTRA: ffmpeg => C:\ProgramData\chocolatey\bin\ffmpeg.exe
+18:00:10.493 INFO : Loading URL: https://production-trusted.s3.amazonaws.com/classes/198a7bf2-bb1f-4d5a-a572-8bab1afa944d/198a7bf2-bb1f-4d5a-a572-8bab1afa944d.m3u8
+18:00:10.827 INFO : Content Matched: HTTP Live Streaming
+18:00:10.829 INFO : Parsing streams...
+18:00:10.829 WARN : Master List detected, try parse all streams
+18:00:10.831 WARN : Writing meta json
+18:00:10.840 INFO : Extracted, there are 4 streams, with 3 basic streams, 1 audio streams, 0 subtitle streams
+18:00:10.841 INFO : Vid 2160x3840 | 2200 Kbps | 29.97 | avc1.4d4033 | SDR
+18:00:10.842 INFO : Vid 2160x3840 | 1206 Kbps | 29.97 | avc1.4d4033 | SDR
+18:00:10.843 INFO : Vid 2160x3840 | 710 Kbps | 29.97 | avc1.4d4033 | SDR
+18:00:10.843 INFO : Aud program_audio_0 | Alternate Audio | eng
+18:00:10.844 INFO : Parsing streams...
+18:00:11.024 INFO : Selected streams:
+18:00:11.025 INFO : Vid 2160x3840 | 2200 Kbps | 29.97 | avc1.4d4033 | SDR | 54 Segments | ~10m39s
+18:00:11.026 INFO : Aud program_audio_0 | Alternate Audio | eng | 54 Segments | ~10m39s
+18:00:11.028 WARN : Writing meta json
+18:00:11.037 INFO : Save Name: 10mCoreStrengthStabilityPowermp4
+18:00:11.038 INFO : Start downloading...Vid 2160x3840 | 2200 Kbps | 29.97 | avc1.4d4033 | SDR
+18:00:11.039 WARN : fMP4 is detected, binary merging is automatically enabled
+18:00:11.048 WARN : Reading media info...
+18:00:11.155 INFO : [0x1]: Video, h264 (avc1), 2160x3840
+18:00:12.728 INFO : Binary merging...
+18:00:13.119 INFO : Start downloading...Aud program_audio_0 | Alternate Audio | eng
+18:00:13.242 WARN : Reading media info...
+18:00:13.303 INFO : [0x1]: Audio, aac (mp4a)
+18:00:14.730 INFO : Binary merging...
+18:00:14.765 INFO : Done

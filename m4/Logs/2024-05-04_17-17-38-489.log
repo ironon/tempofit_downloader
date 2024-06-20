@@ -1,0 +1,35 @@
+﻿LOG 2024/05/04
+Save Path: C:\Users\875497\Documents\tempo_downloader\m4\Logs
+Task Start: 2024/05/04 17:17:38
+Task CommandLine: m4 https://production-trusted.s3.amazonaws.com/classes/198a7bf2-bb1f-4d5a-a572-8bab1afa944d/198a7bf2-bb1f-4d5a-a572-8bab1afa944d.m3u8 --auto-select --save-name 10mCoreStrengthStabilityPowermp4
+
+17:17:38.494 INFO : N_m3u8DL-RE (Beta version) 20230628
+17:17:38.505 EXTRA: ffmpeg => C:\ProgramData\chocolatey\bin\ffmpeg.exe
+17:17:38.506 INFO : Loading URL: https://production-trusted.s3.amazonaws.com/classes/198a7bf2-bb1f-4d5a-a572-8bab1afa944d/198a7bf2-bb1f-4d5a-a572-8bab1afa944d.m3u8
+17:17:38.896 INFO : Content Matched: HTTP Live Streaming
+17:17:38.897 INFO : Parsing streams...
+17:17:38.898 WARN : Master List detected, try parse all streams
+17:17:38.901 WARN : Writing meta json
+17:17:38.913 INFO : Extracted, there are 4 streams, with 3 basic streams, 1 audio streams, 0 subtitle streams
+17:17:38.915 INFO : Vid 2160x3840 | 2200 Kbps | 29.97 | avc1.4d4033 | SDR
+17:17:38.916 INFO : Vid 2160x3840 | 1206 Kbps | 29.97 | avc1.4d4033 | SDR
+17:17:38.917 INFO : Vid 2160x3840 | 710 Kbps | 29.97 | avc1.4d4033 | SDR
+17:17:38.917 INFO : Aud program_audio_0 | Alternate Audio | eng
+17:17:38.918 INFO : Parsing streams...
+17:17:39.112 INFO : Selected streams:
+17:17:39.113 INFO : Vid 2160x3840 | 2200 Kbps | 29.97 | avc1.4d4033 | SDR | 54 Segments | ~10m39s
+17:17:39.114 INFO : Aud program_audio_0 | Alternate Audio | eng | 54 Segments | ~10m39s
+17:17:39.115 WARN : Writing meta json
+17:17:39.125 INFO : Save Name: 10mCoreStrengthStabilityPowermp4
+17:17:39.127 INFO : Start downloading...Vid 2160x3840 | 2200 Kbps | 29.97 | avc1.4d4033 | SDR
+17:17:39.128 WARN : fMP4 is detected, binary merging is automatically enabled
+17:17:39.266 WARN : Reading media info...
+17:17:39.376 INFO : [0x1]: Video, h264 (avc1), 2160x3840
+17:17:50.063 WARN : 10mCoreStrengthStabilityPowermp4.mp4 => 10mCoreStrengthStabilityPowermp4.copy.mp4
+17:17:50.064 INFO : Binary merging...
+17:17:50.168 INFO : Start downloading...Aud program_audio_0 | Alternate Audio | eng
+17:17:50.284 WARN : Reading media info...
+17:17:50.407 INFO : [0x1]: Audio, aac (mp4a)
+17:17:51.626 WARN : 10mCoreStrengthStabilityPowermp4.eng.m4a => 10mCoreStrengthStabilityPowermp4.eng.copy.m4a
+17:17:51.628 INFO : Binary merging...
+17:17:51.662 INFO : Done

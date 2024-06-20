@@ -1,0 +1,33 @@
+﻿LOG 2024/05/04
+Save Path: C:\Users\875497\Documents\tempo_downloader\m4\Logs
+Task Start: 2024/05/04 18:11:07
+Task CommandLine: m4 https://production-trusted.s3.amazonaws.com/classes/2ab518dc-e14e-4b88-a566-b0365294f1f4/2ab518dc-e14e-4b88-a566-b0365294f1f4.m3u8 --auto-select --save-name 30mFullBodyHIITBurpeeAMRAPBaselinemp4
+
+18:11:07.941 INFO : N_m3u8DL-RE (Beta version) 20230628
+18:11:07.951 EXTRA: ffmpeg => C:\ProgramData\chocolatey\bin\ffmpeg.exe
+18:11:07.951 INFO : Loading URL: https://production-trusted.s3.amazonaws.com/classes/2ab518dc-e14e-4b88-a566-b0365294f1f4/2ab518dc-e14e-4b88-a566-b0365294f1f4.m3u8
+18:11:08.316 INFO : Content Matched: HTTP Live Streaming
+18:11:08.318 INFO : Parsing streams...
+18:11:08.319 WARN : Master List detected, try parse all streams
+18:11:08.322 WARN : Writing meta json
+18:11:08.324 INFO : Extracted, there are 4 streams, with 3 basic streams, 1 audio streams, 0 subtitle streams
+18:11:08.325 INFO : Vid 1080x1920 | 2214 Kbps | 29.97 | avc1.4d4028 | SDR
+18:11:08.326 INFO : Vid 1080x1920 | 1214 Kbps | 29.97 | avc1.4d4028 | SDR
+18:11:08.326 INFO : Vid 1080x1920 | 714 Kbps | 29.97 | avc1.4d4028 | SDR
+18:11:08.327 INFO : Aud program_audio_0 | Alternate Audio | eng
+18:11:08.328 INFO : Parsing streams...
+18:11:08.560 INFO : Selected streams:
+18:11:08.561 INFO : Vid 1080x1920 | 2214 Kbps | 29.97 | avc1.4d4028 | SDR | 148 Segments | ~29m26s
+18:11:08.562 INFO : Aud program_audio_0 | Alternate Audio | eng | 148 Segments | ~29m27s
+18:11:08.563 WARN : Writing meta json
+18:11:08.574 INFO : Save Name: 30mFullBodyHIITBurpeeAMRAPBaselinemp4
+18:11:08.576 INFO : Start downloading...Vid 1080x1920 | 2214 Kbps | 29.97 | avc1.4d4028 | SDR
+18:11:08.577 WARN : fMP4 is detected, binary merging is automatically enabled
+18:11:08.711 WARN : Reading media info...
+18:11:08.808 INFO : [0x1]: Video, h264 (avc1), 1080x1920
+18:11:30.728 INFO : Binary merging...
+18:11:31.254 INFO : Start downloading...Aud program_audio_0 | Alternate Audio | eng
+18:11:31.419 WARN : Reading media info...
+18:11:31.517 INFO : [0x1]: Audio, aac (mp4a)
+18:11:34.191 INFO : Binary merging...
+18:11:34.295 INFO : Done

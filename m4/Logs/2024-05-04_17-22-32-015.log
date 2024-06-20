@@ -1,0 +1,9 @@
+﻿LOG 2024/05/04
+Save Path: C:\Users\875497\Documents\tempo_downloader\m4\Logs
+Task Start: 2024/05/04 17:22:32
+Task CommandLine: m4 https://production-trusted.s3.amazonaws.com/classes/198a7bf2-bb1f-4d5a-a572-8bab1afa944d/198a7bf2-bb1f-4d5a-a572-8bab1afa944d.m3u8 --auto-select --save-name 10mCoreStrengthStabilityPowermp4
+
+17:22:32.019 INFO : N_m3u8DL-RE (Beta version) 20230628
+17:22:32.030 EXTRA: ffmpeg => C:\ProgramData\chocolatey\bin\ffmpeg.exe
+17:22:32.030 INFO : Loading URL: https://production-trusted.s3.amazonaws.com/classes/198a7bf2-bb1f-4d5a-a572-8bab1afa944d/198a7bf2-bb1f-4d5a-a572-8bab1afa944d.m3u8
+17:22:32.295 WARN : Force Exit...

@@ -1,0 +1,9 @@
+﻿LOG 2024/05/05
+Save Path: C:\Users\875497\Documents\tempo_downloader\m4\Logs
+Task Start: 2024/05/05 15:03:30
+Task CommandLine: m4 https://production-trusted.s3.amazonaws.com/media-file-PORTRAIT_EDITED_042022_VOD_Jeremy_20mFullBodyRestorativeYogaStretchandChill_d7494828-34a6-45f3-b19f-e79b99f89407.mp4 --auto-select --save-name 25mFullBodyRestorativeYogaStretchandChillmp4
+
+15:03:30.356 INFO : N_m3u8DL-RE (Beta version) 20230628
+15:03:30.367 EXTRA: ffmpeg => C:\ProgramData\chocolatey\bin\ffmpeg.exe
+15:03:30.367 INFO : Loading URL: https://production-trusted.s3.amazonaws.com/media-file-PORTRAIT_EDITED_042022_VOD_Jeremy_20mFullBodyRestorativeYogaStretchandChill_d7494828-34a6-45f3-b19f-e79b99f89407.mp4
+15:09:34.891 ERROR: Input not supported: 

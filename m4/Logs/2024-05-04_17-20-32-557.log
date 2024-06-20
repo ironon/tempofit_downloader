@@ -1,0 +1,28 @@
+﻿LOG 2024/05/04
+Save Path: C:\Users\875497\Documents\tempo_downloader\m4\Logs
+Task Start: 2024/05/04 17:20:32
+Task CommandLine: m4 https://production-trusted.s3.amazonaws.com/classes/2962394a-c054-4dcb-971f-29b5e9f714ec/2962394a-c054-4dcb-971f-29b5e9f714ec.m3u8 --auto-select --save-name 20mCoreStrengthPowermp4
+
+17:20:32.561 INFO : N_m3u8DL-RE (Beta version) 20230628
+17:20:32.575 EXTRA: ffmpeg => C:\ProgramData\chocolatey\bin\ffmpeg.exe
+17:20:32.575 INFO : Loading URL: https://production-trusted.s3.amazonaws.com/classes/2962394a-c054-4dcb-971f-29b5e9f714ec/2962394a-c054-4dcb-971f-29b5e9f714ec.m3u8
+17:20:32.924 INFO : Content Matched: HTTP Live Streaming
+17:20:32.925 INFO : Parsing streams...
+17:20:32.926 WARN : Master List detected, try parse all streams
+17:20:32.929 WARN : Writing meta json
+17:20:32.931 INFO : Extracted, there are 4 streams, with 3 basic streams, 1 audio streams, 0 subtitle streams
+17:20:32.932 INFO : Vid 2160x3840 | 2215 Kbps | 29.97 | avc1.4d4033 | SDR
+17:20:32.933 INFO : Vid 2160x3840 | 1214 Kbps | 29.97 | avc1.4d4033 | SDR
+17:20:32.934 INFO : Vid 2160x3840 | 714 Kbps | 29.97 | avc1.4d4033 | SDR
+17:20:32.935 INFO : Aud program_audio_0 | Alternate Audio | eng
+17:20:32.937 INFO : Parsing streams...
+17:20:33.169 INFO : Selected streams:
+17:20:33.171 INFO : Vid 2160x3840 | 2215 Kbps | 29.97 | avc1.4d4033 | SDR | 95 Segments | ~18m51s
+17:20:33.171 INFO : Aud program_audio_0 | Alternate Audio | eng | 95 Segments | ~18m51s
+17:20:33.172 WARN : Writing meta json
+17:20:33.173 INFO : Save Name: 20mCoreStrengthPowermp4
+17:20:33.175 INFO : Start downloading...Vid 2160x3840 | 2215 Kbps | 29.97 | avc1.4d4033 | SDR
+17:20:33.175 WARN : fMP4 is detected, binary merging is automatically enabled
+17:20:33.298 WARN : Reading media info...
+17:20:33.432 INFO : [0x1]: Video, h264 (avc1), 2160x3840
+17:20:40.935 WARN : Force Exit...

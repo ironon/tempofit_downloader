@@ -1,0 +1,28 @@
+﻿LOG 2024/05/04
+Save Path: C:\Users\875497\Documents\tempo_downloader\Logs
+Task Start: 2024/05/04 17:15:10
+Task CommandLine: m4 https://production-trusted.s3.amazonaws.com/classes/f3b67a43-2760-4d41-896d-4194e0032287/f3b67a43-2760-4d41-896d-4194e0032287.m3u8 --auto-select --save-name 25mUpperBodyBuildBackatitmp4
+
+17:15:10.512 INFO : N_m3u8DL-RE (Beta version) 20230628
+17:15:10.523 EXTRA: ffmpeg => C:\ProgramData\chocolatey\bin\ffmpeg.exe
+17:15:10.523 INFO : Loading URL: https://production-trusted.s3.amazonaws.com/classes/f3b67a43-2760-4d41-896d-4194e0032287/f3b67a43-2760-4d41-896d-4194e0032287.m3u8
+17:15:10.893 INFO : Content Matched: HTTP Live Streaming
+17:15:10.893 INFO : Parsing streams...
+17:15:10.894 WARN : Master List detected, try parse all streams
+17:15:10.896 WARN : Writing meta json
+17:15:10.898 INFO : Extracted, there are 4 streams, with 3 basic streams, 1 audio streams, 0 subtitle streams
+17:15:10.899 INFO : Vid 2160x3840 | 2207 Kbps | 29.97 | avc1.4d4033 | SDR
+17:15:10.900 INFO : Vid 2160x3840 | 1210 Kbps | 29.97 | avc1.4d4033 | SDR
+17:15:10.901 INFO : Vid 2160x3840 | 712 Kbps | 29.97 | avc1.4d4033 | SDR
+17:15:10.901 INFO : Aud program_audio_0 | Alternate Audio | eng
+17:15:10.902 INFO : Parsing streams...
+17:15:11.107 INFO : Selected streams:
+17:15:11.108 INFO : Vid 2160x3840 | 2207 Kbps | 29.97 | avc1.4d4033 | SDR | 117 Segments | ~23m22s
+17:15:11.109 INFO : Aud program_audio_0 | Alternate Audio | eng | 117 Segments | ~23m22s
+17:15:11.110 WARN : Writing meta json
+17:15:11.114 INFO : Save Name: 25mUpperBodyBuildBackatitmp4
+17:15:11.117 INFO : Start downloading...Vid 2160x3840 | 2207 Kbps | 29.97 | avc1.4d4033 | SDR
+17:15:11.118 WARN : fMP4 is detected, binary merging is automatically enabled
+17:15:11.370 WARN : Reading media info...
+17:15:11.481 INFO : [0x1]: Video, h264 (avc1), 2160x3840
+17:15:26.497 WARN : Force Exit...

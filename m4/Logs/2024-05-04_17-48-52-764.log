@@ -1,0 +1,35 @@
+﻿LOG 2024/05/04
+Save Path: C:\Users\875497\Documents\tempo_downloader\m4\Logs
+Task Start: 2024/05/04 17:48:52
+Task CommandLine: C:\Users\875497\Documents\tempo_downloader\m4\m4.exe https://production-trusted.s3.amazonaws.com/classes/198a7bf2-bb1f-4d5a-a572-8bab1afa944d/198a7bf2-bb1f-4d5a-a572-8bab1afa944d.m3u8 --save-name temp.mp4
+
+17:48:52.767 INFO : N_m3u8DL-RE (Beta version) 20230628
+17:48:52.777 EXTRA: ffmpeg => C:\ProgramData\chocolatey\bin\ffmpeg.exe
+17:48:52.777 INFO : Loading URL: https://production-trusted.s3.amazonaws.com/classes/198a7bf2-bb1f-4d5a-a572-8bab1afa944d/198a7bf2-bb1f-4d5a-a572-8bab1afa944d.m3u8
+17:48:53.116 INFO : Content Matched: HTTP Live Streaming
+17:48:53.117 INFO : Parsing streams...
+17:48:53.117 WARN : Master List detected, try parse all streams
+17:48:53.120 WARN : Writing meta json
+17:48:53.121 INFO : Extracted, there are 4 streams, with 3 basic streams, 1 audio streams, 0 subtitle streams
+17:48:53.122 INFO : Vid 2160x3840 | 2200 Kbps | 29.97 | avc1.4d4033 | SDR
+17:48:53.122 INFO : Vid 2160x3840 | 1206 Kbps | 29.97 | avc1.4d4033 | SDR
+17:48:53.123 INFO : Vid 2160x3840 | 710 Kbps | 29.97 | avc1.4d4033 | SDR
+17:48:53.123 INFO : Aud program_audio_0 | Alternate Audio | eng
+17:48:56.370 INFO : Parsing streams...
+17:48:56.575 INFO : Selected streams:
+17:48:56.576 INFO : Vid 2160x3840 | 2200 Kbps | 29.97 | avc1.4d4033 | SDR | 54 Segments | ~10m39s
+17:48:56.577 INFO : Aud program_audio_0 | Alternate Audio | eng | 54 Segments | ~10m39s
+17:48:56.578 WARN : Writing meta json
+17:48:56.580 INFO : Save Name: temp.mp4
+17:48:56.590 INFO : Start downloading...Vid 2160x3840 | 2200 Kbps | 29.97 | avc1.4d4033 | SDR
+17:48:56.591 WARN : fMP4 is detected, binary merging is automatically enabled
+17:48:56.723 WARN : Reading media info...
+17:48:56.880 INFO : [0x1]: Video, h264 (avc1), 2160x3840
+17:49:08.544 WARN : temp.mp4.mp4 => temp.mp4.copy.mp4
+17:49:08.546 INFO : Binary merging...
+17:49:08.638 INFO : Start downloading...Aud program_audio_0 | Alternate Audio | eng
+17:49:08.793 WARN : Reading media info...
+17:49:08.903 INFO : [0x1]: Audio, aac (mp4a)
+17:49:10.068 WARN : temp.mp4.eng.m4a => temp.mp4.eng.copy.m4a
+17:49:10.069 INFO : Binary merging...
+17:49:10.103 INFO : Done

@@ -1,0 +1,28 @@
+﻿LOG 2024/05/04
+Save Path: C:\Users\875497\Documents\tempo_downloader\m4\Logs
+Task Start: 2024/05/04 17:24:34
+Task CommandLine: m4 https://production-trusted.s3.amazonaws.com/classes/41d0e1de-df89-4584-87dc-1ecfc15e3f73/41d0e1de-df89-4584-87dc-1ecfc15e3f73.m3u8 --auto-select --save-name 25mLowerBodyBuildGluteGainsmp4
+
+17:24:34.111 INFO : N_m3u8DL-RE (Beta version) 20230628
+17:24:34.124 EXTRA: ffmpeg => C:\ProgramData\chocolatey\bin\ffmpeg.exe
+17:24:34.125 INFO : Loading URL: https://production-trusted.s3.amazonaws.com/classes/41d0e1de-df89-4584-87dc-1ecfc15e3f73/41d0e1de-df89-4584-87dc-1ecfc15e3f73.m3u8
+17:24:34.493 INFO : Content Matched: HTTP Live Streaming
+17:24:34.494 INFO : Parsing streams...
+17:24:34.496 WARN : Master List detected, try parse all streams
+17:24:34.498 WARN : Writing meta json
+17:24:34.500 INFO : Extracted, there are 4 streams, with 3 basic streams, 1 audio streams, 0 subtitle streams
+17:24:34.501 INFO : Vid 1080x1920 | 2203 Kbps | 29.97 | avc1.4d4028 | SDR
+17:24:34.501 INFO : Vid 1080x1920 | 1208 Kbps | 29.97 | avc1.4d4028 | SDR
+17:24:34.502 INFO : Vid 1080x1920 | 711 Kbps | 29.97 | avc1.4d4028 | SDR
+17:24:34.502 INFO : Aud program_audio_0 | Alternate Audio | eng
+17:24:34.503 INFO : Parsing streams...
+17:24:34.702 INFO : Selected streams:
+17:24:34.703 INFO : Vid 1080x1920 | 2203 Kbps | 29.97 | avc1.4d4028 | SDR | 125 Segments | ~25m00s
+17:24:34.704 INFO : Aud program_audio_0 | Alternate Audio | eng | 125 Segments | ~25m00s
+17:24:34.705 WARN : Writing meta json
+17:24:34.714 INFO : Save Name: 25mLowerBodyBuildGluteGainsmp4
+17:24:34.716 INFO : Start downloading...Vid 1080x1920 | 2203 Kbps | 29.97 | avc1.4d4028 | SDR
+17:24:34.717 WARN : fMP4 is detected, binary merging is automatically enabled
+17:24:34.958 WARN : Reading media info...
+17:24:35.088 INFO : [0x1]: Video, h264 (avc1), 1080x1920
+17:24:38.761 WARN : Force Exit...

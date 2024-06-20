@@ -1,0 +1,35 @@
+﻿LOG 2024/05/04
+Save Path: C:\Users\875497\Documents\tempo_downloader\m4\Logs
+Task Start: 2024/05/04 18:34:27
+Task CommandLine: m4 https://production-trusted.s3.amazonaws.com/classes/b8c4dfd0-43d5-40de-8dce-fbdd79d61a0b/b8c4dfd0-43d5-40de-8dce-fbdd79d61a0b.m3u8 --auto-select --save-name 40mLowerBodyBuildSimpleisntEasymp4
+
+18:34:27.354 INFO : N_m3u8DL-RE (Beta version) 20230628
+18:34:27.364 EXTRA: ffmpeg => C:\ProgramData\chocolatey\bin\ffmpeg.exe
+18:34:27.364 INFO : Loading URL: https://production-trusted.s3.amazonaws.com/classes/b8c4dfd0-43d5-40de-8dce-fbdd79d61a0b/b8c4dfd0-43d5-40de-8dce-fbdd79d61a0b.m3u8
+18:34:27.720 INFO : Content Matched: HTTP Live Streaming
+18:34:27.721 INFO : Parsing streams...
+18:34:27.722 WARN : Master List detected, try parse all streams
+18:34:27.724 WARN : Writing meta json
+18:34:27.726 INFO : Extracted, there are 4 streams, with 3 basic streams, 1 audio streams, 0 subtitle streams
+18:34:27.727 INFO : Vid 1080x1920 | 2214 Kbps | 30 | avc1.4d4028 | SDR
+18:34:27.728 INFO : Vid 1080x1920 | 1214 Kbps | 30 | avc1.4d4028 | SDR
+18:34:27.728 INFO : Vid 1080x1920 | 714 Kbps | 30 | avc1.4d4028 | SDR
+18:34:27.729 INFO : Aud program_audio_0 | Alternate Audio | und
+18:34:27.729 INFO : Parsing streams...
+18:34:27.992 INFO : Selected streams:
+18:34:27.993 INFO : Vid 1080x1920 | 2214 Kbps | 30 | avc1.4d4028 | SDR | 302 Segments | ~01h00m16s
+18:34:27.994 INFO : Aud program_audio_0 | Alternate Audio | und | 302 Segments | ~01h00m16s
+18:34:27.995 WARN : Writing meta json
+18:34:27.997 INFO : Save Name: 40mLowerBodyBuildSimpleisntEasymp4
+18:34:27.999 INFO : Start downloading...Vid 1080x1920 | 2214 Kbps | 30 | avc1.4d4028 | SDR
+18:34:28.000 WARN : fMP4 is detected, binary merging is automatically enabled
+18:34:28.127 WARN : Reading media info...
+18:34:28.237 INFO : [0x1]: Video, h264 (avc1), 1080x1920
+18:35:14.046 WARN : 40mLowerBodyBuildSimpleisntEasymp4.mp4 => 40mLowerBodyBuildSimpleisntEasymp4.copy.mp4
+18:35:14.048 INFO : Binary merging...
+18:35:15.262 INFO : Start downloading...Aud program_audio_0 | Alternate Audio | und
+18:35:15.383 WARN : Reading media info...
+18:35:15.722 INFO : [0x1]: Audio, aac (mp4a)
+18:35:20.696 WARN : 40mLowerBodyBuildSimpleisntEasymp4.und.m4a => 40mLowerBodyBuildSimpleisntEasymp4.und.copy.m4a
+18:35:20.697 INFO : Binary merging...
+18:35:20.818 INFO : Done

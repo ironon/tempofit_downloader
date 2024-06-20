@@ -1,0 +1,32 @@
+﻿LOG 2024/05/04
+Save Path: C:\Users\875497\Documents\tempo_downloader\m4\Logs
+Task Start: 2024/05/04 17:18:39
+Task CommandLine: m4 https://production-trusted.s3.amazonaws.com/classes/2962394a-c054-4dcb-971f-29b5e9f714ec/2962394a-c054-4dcb-971f-29b5e9f714ec.m3u8 --auto-select --save-name 20mCoreStrengthPowermp4
+
+17:18:39.344 INFO : N_m3u8DL-RE (Beta version) 20230628
+17:18:39.357 EXTRA: ffmpeg => C:\ProgramData\chocolatey\bin\ffmpeg.exe
+17:18:39.358 INFO : Loading URL: https://production-trusted.s3.amazonaws.com/classes/2962394a-c054-4dcb-971f-29b5e9f714ec/2962394a-c054-4dcb-971f-29b5e9f714ec.m3u8
+17:18:39.688 INFO : Content Matched: HTTP Live Streaming
+17:18:39.689 INFO : Parsing streams...
+17:18:39.689 WARN : Master List detected, try parse all streams
+17:18:39.692 WARN : Writing meta json
+17:18:39.693 INFO : Extracted, there are 4 streams, with 3 basic streams, 1 audio streams, 0 subtitle streams
+17:18:39.694 INFO : Vid 2160x3840 | 2215 Kbps | 29.97 | avc1.4d4033 | SDR
+17:18:39.695 INFO : Vid 2160x3840 | 1214 Kbps | 29.97 | avc1.4d4033 | SDR
+17:18:39.696 INFO : Vid 2160x3840 | 714 Kbps | 29.97 | avc1.4d4033 | SDR
+17:18:39.696 INFO : Aud program_audio_0 | Alternate Audio | eng
+17:18:39.697 INFO : Parsing streams...
+17:18:39.901 INFO : Selected streams:
+17:18:39.902 INFO : Vid 2160x3840 | 2215 Kbps | 29.97 | avc1.4d4033 | SDR | 95 Segments | ~18m51s
+17:18:39.904 INFO : Aud program_audio_0 | Alternate Audio | eng | 95 Segments | ~18m51s
+17:18:39.905 WARN : Writing meta json
+17:18:39.916 INFO : Save Name: 20mCoreStrengthPowermp4
+17:18:39.918 INFO : Start downloading...Vid 2160x3840 | 2215 Kbps | 29.97 | avc1.4d4033 | SDR
+17:18:39.919 WARN : fMP4 is detected, binary merging is automatically enabled
+17:18:40.071 WARN : Reading media info...
+17:18:40.191 INFO : [0x1]: Video, h264 (avc1), 2160x3840
+17:18:55.526 INFO : Binary merging...
+17:18:55.718 INFO : Start downloading...Aud program_audio_0 | Alternate Audio | eng
+17:18:55.832 WARN : Reading media info...
+17:18:55.964 INFO : [0x1]: Audio, aac (mp4a)
+17:18:56.287 WARN : Force Exit...
